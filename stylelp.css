@@ -175,3 +175,6 @@
         font-size: 150px;
     }
   }
+  @texto {
+    text-align: justified;
+  }
