@@ -114,7 +114,7 @@ Es un apasionado de su profesión: trabaja dando clases de idioma extranjero a a
     <h4><em>Choose a payment plan that works for you</em></h4>
   </div>
   <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
+    <div class="col-sm-6 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
           <h1>Basic</h1>
@@ -133,7 +133,7 @@ Es un apasionado de su profesión: trabaja dando clases de idioma extranjero a a
     </div>
 	
 	
-    <div class="col-sm-4 col-xs-12">
+    <div class="col-sm-6 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
           <h1>Custom</h1>
@@ -146,23 +146,6 @@ Es un apasionado de su profesión: trabaja dando clases de idioma extranjero a a
           <h3>$29</h3>
           <h4>per month</h4>
           <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>
-    </div>
-	  
-	<div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Initial</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>1</strong> Hour of Skype</p>
-          <p><strong>Let's</strong> know each other!</p>
-          </div>
-        <div class="panel-footer">
-          <h3>Free</h3>
-          <h4>First interview</h4>
-          <button class="btn btn-lg"><a href="/schedule">Schedule now!</a></button>
         </div>
       </div>
     </div>
@@ -185,21 +168,14 @@ Es un apasionado de su profesión: trabaja dando clases de idioma extranjero a a
    
    <div class="col-sm-7 slideanim">
       <div class="row">
-        <!--div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-	</div>!-->
-
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email or skype" type="email" required>
+          <input class="form-control" id="name" name="name" placeholder="Skype or Phone" type="text" required>
         </div>
-	<div class="col-sm-6 form-group">
-          <input class="form-control" id="place" name="place" placeholder="Where do you live?" type="text" required>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
-	<!--<div class="col-sm-6 form-group">
-          <input class="form-control" id="skype" name="skype" placeholder="Phone or Skype" type="text" required>
-        </div>!-->
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Let us know when you're available to chat!" rows="5"></textarea><br>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Send us your availability to talk" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Send</button>
@@ -224,10 +200,8 @@ $(document).ready(function(){
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
-
       // Store hash
       var hash = this.hash;
-
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
@@ -243,7 +217,6 @@ $(document).ready(function(){
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
-
       var winTop = $(window).scrollTop();
         if (pos < winTop + 600) {
           $(this).addClass("slide");
