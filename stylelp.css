@@ -20,9 +20,10 @@
   .jumbotron {
       background-color: #6f4934;
       color: #fff;
-      padding: 100px 50px 50px 0px;
+      padding: 75px 50px 50px 0px;
 	  padding-bottom: 0px:
-      font-family: Montserrat, sans-serif;
+      margin-bottom: 0px;
+	  font-family: Montserrat, sans-serif;
   }
   .container-fluid {
       padding: 20px 15px;
