@@ -20,7 +20,8 @@
   .jumbotron {
       background-color: #6f4934;
       color: #fff;
-      padding: 100px 0px;
+      padding: 100px 0px 0px 0px;
+	  padding-bottom: 0px:
       font-family: Montserrat, sans-serif;
   }
   .container-fluid {
