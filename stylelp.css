@@ -175,6 +175,6 @@
         font-size: 150px;
     }
   }
-  p {
+  @text {
     text-align: justify;
   }
