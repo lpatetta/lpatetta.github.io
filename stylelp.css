@@ -9,6 +9,9 @@
       color: #7dbcbb;
       font-weight: 600;
       margin-bottom: 30px;
+	.titleh2 {
+		color: #7dbcbb;
+	} 
   }
   h4 {
       font-size: 19px;
