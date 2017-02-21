@@ -9,9 +9,9 @@
       color: #7dbcbb;
       font-weight: 600;
       margin-bottom: 30px;
+	}
 	.titleh2 {
-		color: #7dbcbb;
-	} 
+		color: #7dbcbb;	
   }
   h4 {
       font-size: 19px;
@@ -20,7 +20,7 @@
       font-weight: 400;
       margin-bottom: 30px;
   }
-  .jumbotron {
+	.jumbotron {
       background-color: #6f4934;
       color: #fff;
       padding: 75px 50px 50px 0px;
@@ -72,7 +72,7 @@
       font-style: normal;
   }
   .panel {
-      border: 1px solid #f2f2f0;
+      border: 0px solid #f2f2f0;
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
